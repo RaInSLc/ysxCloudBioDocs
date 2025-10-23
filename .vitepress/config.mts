@@ -4,6 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "ysxCloudBio",
   description: "生信服务器和生信服务",
+  
+  // ⭐️ 添加 base 配置，指向你的仓库名
+  base: '/ysxCloudBioDocs/',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
