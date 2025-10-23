@@ -11,15 +11,15 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/ysxCloudBioDocs' },
-      { text: 'ysxCloudBioDocs', link: '/ysxCloudBioDocs' }
+      { text: 'Home', link: '/' },
+      { text: 'ysxCloudBioDocs', link: '/' }
     ],
 
     sidebar: [
       {
         text: 'ysxCloudBioDocs',
         items: [
-          { text: 'ysxCloudBioDocs', link: '/ysxCloudBioDocs' }
+          { text: 'ysxCloudBioDocs', link: '/' }
           
         ]
       }
